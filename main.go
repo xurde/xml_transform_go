@@ -28,3 +28,7 @@ func doTransformation() {
 func doCachedTransformation() {
 	globalStylesheet.Process(globalDoc, xslt.StylesheetOptions{true, nil})
 }
+
+func main() {
+
+}
