@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 
+	"io/ioutil"
+
 	"github.com/jbowtie/gokogiri/xml"
 	"github.com/jbowtie/ratago/xslt"
 )
@@ -30,5 +32,9 @@ func doCachedTransformation() {
 }
 
 func main() {
-
+	output, _ := globalStylesheet.Process(globalDoc, xslt.StylesheetOptions{true, nil})
+	fmt.Println("---")
+	fmt.Println(output)
+	fmt.Println("---")
+	ioutil.WriteFile("output.xml", []byte(output), 0755)
 }
