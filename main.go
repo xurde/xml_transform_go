@@ -7,13 +7,14 @@ import (
 	"github.com/jbowtie/ratago/xslt"
 )
 
-var globalStyle *xml.XmlDocument
+var globalStyle, globalDoc *xml.XmlDocument
 var globalStylesheet *xslt.Stylesheet
 
 func init() {
 	fmt.Println("init")
 	globalStyle, _ = xml.ReadFile("test.xsl", xml.StrictParseOption)
 	globalStylesheet, _ = xslt.ParseStylesheet(globalStyle, "test.xsl")
+	globalDoc, _ = xml.ReadFile("as.xml", xml.StrictParseOption)
 }
 
 func doTransformation() {
@@ -25,6 +26,5 @@ func doTransformation() {
 }
 
 func doCachedTransformation() {
-	doc, _ := xml.ReadFile("as.xml", xml.StrictParseOption)
-	globalStylesheet.Process(doc, xslt.StylesheetOptions{true, nil})
+	globalStylesheet.Process(globalDoc, xslt.StylesheetOptions{true, nil})
 }
