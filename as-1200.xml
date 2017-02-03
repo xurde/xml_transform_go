@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:Envelope xmlns:ns2="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns3="http://www.iata.org/IATA/EDIST">
+    <ns2:Body>
+        <ns3:AirShoppingRS Version="">
+            <ns3:Document>
+                <ns3:Name>1.0</ns3:Name>
+            </ns3:Document>
+            <ns3:Success/>
+            <ns3:AirShoppingProcessing/>
+            <ns3:OffersGroup>
+                <ns3:AirlineOffers>
+                    <ns3:TotalOfferQuantity>14</ns3:TotalOfferQuantity>
+                    <ns3:Owner>S7</ns3:Owner>
+                    <ns3:AirlineOffer>
+                        <ns3:OfferID Owner="S7">OF1</ns3:OfferID>
+                        <ns3:TotalPrice>
+                            <ns3:DetailCurrencyPrice>
+                                <ns3:Total Code="RUB">7000</ns3:Total>
+                                <ns3:Fees>
+                                    <ns3:Total>0</ns3:Total>
+                                </ns3:Fees>
+                            </ns3:DetailCurrencyPrice>
+                        </ns3:TotalPrice>
+                        <ns3:PricedOffer>
+                            <ns3:OfferPrice>
+                                <ns3:RequestedDate>
+                                    <ns3:PriceDetail>
+                                        <ns3:BaseAmount Code="RUB">5500</ns3:BaseAmount>
+                                    </ns3:PriceDetail>
+                                    <ns3:Associations>
+                                        <ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG1</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                        </ns3:OtherAssociation>
+                                    </ns3:Associations>
+                                    <ns3:Associations>
+                                        <ns3:AssociatedTraveler>
+                                            <ns3:TravelerReferences>SH1</ns3:TravelerReferences>
+                                        </ns3:AssociatedTraveler>
+                                        <ns3:ApplicableFlight>
+                                            <ns3:OriginDestinationReferences>OD1</ns3:OriginDestinationReferences>
+                                            <ns3:FlightReferences>FL1</ns3:FlightReferences>
+                                            <ns3:FlightSegmentReference ref="SEG1">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">O</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG1</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                        </ns3:ApplicableFlight>
+                                        <ns3:OfferDetailAssociation>
+                                            <ns3:OfferPenaltyReferences>PL1</ns3:OfferPenaltyReferences>
+                                        </ns3:OfferDetailAssociation>
+                                    </ns3:Associations>
+                                </ns3:RequestedDate>
+                                <ns3:FareDetail>
+                                    <ns3:FareComponent>
+                                        <ns3:Parameters Quantity="1"/>
+                                        <ns3:PriceBreakdown>
+                                            <ns3:Price>
+                                                <ns3:BaseAmount Code="RUB">5500</ns3:BaseAmount>
+                                                <ns3:FareFiledIn>
+                                                    <ns3:BaseAmount Code="RUB">5500</ns3:BaseAmount>
+                                                </ns3:FareFiledIn>
+                                                <ns3:Taxes>
+                                                    <ns3:Total Code="RUB">1500</ns3:Total>
+                                                    <ns3:Breakdown>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                    </ns3:Breakdown>
+                                                </ns3:Taxes>
+                                            </ns3:Price>
+                                        </ns3:PriceBreakdown>
+                                    </ns3:FareComponent>
+                                    <ns3:Remarks>
+                                        <ns3:Remark>20MAR17OVB S7 MOW5500RUB5500END XT RUB1500YR</ns3:Remark>
+                                    </ns3:Remarks>
+                                </ns3:FareDetail>
+                            </ns3:OfferPrice>
+                        </ns3:PricedOffer>
+                    </ns3:AirlineOffer>
+                    <ns3:AirlineOffer>
+                        <ns3:OfferID Owner="S7">OF2</ns3:OfferID>
+                        <ns3:TotalPrice>
+                            <ns3:DetailCurrencyPrice>
+                                <ns3:Total Code="RUB">7000</ns3:Total>
+                                <ns3:Fees>
+                                    <ns3:Total>0</ns3:Total>
+                                </ns3:Fees>
+                            </ns3:DetailCurrencyPrice>
+                        </ns3:TotalPrice>
+                        <ns3:PricedOffer>
+                            <ns3:OfferPrice>
+                                <ns3:RequestedDate>
+                                    <ns3:PriceDetail>
+                                        <ns3:BaseAmount Code="RUB">5500</ns3:BaseAmount>
+                                    </ns3:PriceDetail>
+                                    <ns3:Associations>
+                                        <ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG2</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                        </ns3:OtherAssociation>
+                                    </ns3:Associations>
+                                    <ns3:Associations>
+                                        <ns3:AssociatedTraveler>
+                                            <ns3:TravelerReferences>SH1</ns3:TravelerReferences>
+                                        </ns3:AssociatedTraveler>
+                                        <ns3:ApplicableFlight>
+                                            <ns3:OriginDestinationReferences>OD1</ns3:OriginDestinationReferences>
+                                            <ns3:FlightReferences>FL2</ns3:FlightReferences>
+                                            <ns3:FlightSegmentReference ref="SEG2">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">O</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG2</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                        </ns3:ApplicableFlight>
+                                        <ns3:OfferDetailAssociation>
+                                            <ns3:OfferPenaltyReferences>PL1</ns3:OfferPenaltyReferences>
+                                        </ns3:OfferDetailAssociation>
+                                    </ns3:Associations>
+                                </ns3:RequestedDate>
+                                <ns3:FareDetail>
+                                    <ns3:FareComponent>
+                                        <ns3:Parameters Quantity="1"/>
+                                        <ns3:PriceBreakdown>
+                                            <ns3:Price>
+                                                <ns3:BaseAmount Code="RUB">5500</ns3:BaseAmount>
+                                                <ns3:FareFiledIn>
+                                                    <ns3:BaseAmount Code="RUB">5500</ns3:BaseAmount>
+                                                </ns3:FareFiledIn>
+                                                <ns3:Taxes>
+                                                    <ns3:Total Code="RUB">1500</ns3:Total>
+                                                    <ns3:Breakdown>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                    </ns3:Breakdown>
+                                                </ns3:Taxes>
+                                            </ns3:Price>
+                                        </ns3:PriceBreakdown>
+                                    </ns3:FareComponent>
+                                    <ns3:Remarks>
+                                        <ns3:Remark>20MAR17OVB S7 MOW5500RUB5500END XT RUB1500YR</ns3:Remark>
+                                    </ns3:Remarks>
+                                </ns3:FareDetail>
+                            </ns3:OfferPrice>
+                        </ns3:PricedOffer>
+                    </ns3:AirlineOffer>
+                    <ns3:AirlineOffer>
+                        <ns3:OfferID Owner="S7">OF3</ns3:OfferID>
+                        <ns3:TotalPrice>
+                            <ns3:DetailCurrencyPrice>
+                                <ns3:Total Code="RUB">7000</ns3:Total>
+                                <ns3:Fees>
+                                    <ns3:Total>0</ns3:Total>
+                                </ns3:Fees>
+                            </ns3:DetailCurrencyPrice>
+                        </ns3:TotalPrice>
+                        <ns3:PricedOffer>
+                            <ns3:OfferPrice>
+                                <ns3:RequestedDate>
+                                    <ns3:PriceDetail>
+                                        <ns3:BaseAmount Code="RUB">5500</ns3:BaseAmount>
+                                    </ns3:PriceDetail>
+                                    <ns3:Associations>
+                                        <ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG3</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                        </ns3:OtherAssociation>
+                                    </ns3:Associations>
+                                    <ns3:Associations>
+                                        <ns3:AssociatedTraveler>
+                                            <ns3:TravelerReferences>SH1</ns3:TravelerReferences>
+                                        </ns3:AssociatedTraveler>
+                                        <ns3:ApplicableFlight>
+                                            <ns3:OriginDestinationReferences>OD1</ns3:OriginDestinationReferences>
+                                            <ns3:FlightReferences>FL3</ns3:FlightReferences>
+                                            <ns3:FlightSegmentReference ref="SEG3">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">O</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG3</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                        </ns3:ApplicableFlight>
+                                        <ns3:OfferDetailAssociation>
+                                            <ns3:OfferPenaltyReferences>PL1</ns3:OfferPenaltyReferences>
+                                        </ns3:OfferDetailAssociation>
+                                    </ns3:Associations>
+                                </ns3:RequestedDate>
+                                <ns3:FareDetail>
+                                    <ns3:FareComponent>
+                                        <ns3:Parameters Quantity="1"/>
+                                        <ns3:PriceBreakdown>
+                                            <ns3:Price>
+                                                <ns3:BaseAmount Code="RUB">5500</ns3:BaseAmount>
+                                                <ns3:FareFiledIn>
+                                                    <ns3:BaseAmount Code="RUB">5500</ns3:BaseAmount>
+                                                </ns3:FareFiledIn>
+                                                <ns3:Taxes>
+                                                    <ns3:Total Code="RUB">1500</ns3:Total>
+                                                    <ns3:Breakdown>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                    </ns3:Breakdown>
+                                                </ns3:Taxes>
+                                            </ns3:Price>
+                                        </ns3:PriceBreakdown>
+                                    </ns3:FareComponent>
+                                    <ns3:Remarks>
+                                        <ns3:Remark>20MAR17OVB S7 MOW5500RUB5500END XT RUB1500YR</ns3:Remark>
+                                    </ns3:Remarks>
+                                </ns3:FareDetail>
+                            </ns3:OfferPrice>
+                        </ns3:PricedOffer>
+                    </ns3:AirlineOffer>
+                    <ns3:AirlineOffer>
+                        <ns3:OfferID Owner="S7">OF4</ns3:OfferID>
+                        <ns3:TotalPrice>
+                            <ns3:DetailCurrencyPrice>
+                                <ns3:Total Code="RUB">7000</ns3:Total>
+                                <ns3:Fees>
+                                    <ns3:Total>0</ns3:Total>
+                                </ns3:Fees>
+                            </ns3:DetailCurrencyPrice>
+                        </ns3:TotalPrice>
+                        <ns3:PricedOffer>
+                            <ns3:OfferPrice>
+                                <ns3:RequestedDate>
+                                    <ns3:PriceDetail>
+                                        <ns3:BaseAmount Code="RUB">5500</ns3:BaseAmount>
+                                    </ns3:PriceDetail>
+                                    <ns3:Associations>
+                                        <ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG4</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                        </ns3:OtherAssociation>
+                                    </ns3:Associations>
+                                    <ns3:Associations>
+                                        <ns3:AssociatedTraveler>
+                                            <ns3:TravelerReferences>SH1</ns3:TravelerReferences>
+                                        </ns3:AssociatedTraveler>
+                                        <ns3:ApplicableFlight>
+                                            <ns3:OriginDestinationReferences>OD1</ns3:OriginDestinationReferences>
+                                            <ns3:FlightReferences>FL4</ns3:FlightReferences>
+                                            <ns3:FlightSegmentReference ref="SEG4">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">O</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG4</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                        </ns3:ApplicableFlight>
+                                        <ns3:OfferDetailAssociation>
+                                            <ns3:OfferPenaltyReferences>PL1</ns3:OfferPenaltyReferences>
+                                        </ns3:OfferDetailAssociation>
+                                    </ns3:Associations>
+                                </ns3:RequestedDate>
+                                <ns3:FareDetail>
+                                    <ns3:FareComponent>
+                                        <ns3:Parameters Quantity="1"/>
+                                        <ns3:PriceBreakdown>
+                                            <ns3:Price>
+                                                <ns3:BaseAmount Code="RUB">5500</ns3:BaseAmount>
+                                                <ns3:FareFiledIn>
+                                                    <ns3:BaseAmount Code="RUB">5500</ns3:BaseAmount>
+                                                </ns3:FareFiledIn>
+                                                <ns3:Taxes>
+                                                    <ns3:Total Code="RUB">1500</ns3:Total>
+                                                    <ns3:Breakdown>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                    </ns3:Breakdown>
+                                                </ns3:Taxes>
+                                            </ns3:Price>
+                                        </ns3:PriceBreakdown>
+                                    </ns3:FareComponent>
+                                    <ns3:Remarks>
+                                        <ns3:Remark>20MAR17OVB S7 MOW5500RUB5500END XT RUB1500YR</ns3:Remark>
+                                    </ns3:Remarks>
+                                </ns3:FareDetail>
+                            </ns3:OfferPrice>
+                        </ns3:PricedOffer>
+                    </ns3:AirlineOffer>
+                    <ns3:AirlineOffer>
+                        <ns3:OfferID Owner="S7">OF5</ns3:OfferID>
+                        <ns3:TotalPrice>
+                            <ns3:DetailCurrencyPrice>
+                                <ns3:Total Code="RUB">7000</ns3:Total>
+                                <ns3:Fees>
+                                    <ns3:Total>0</ns3:Total>
+                                </ns3:Fees>
+                            </ns3:DetailCurrencyPrice>
+                        </ns3:TotalPrice>
+                        <ns3:PricedOffer>
+                            <ns3:OfferPrice>
+                                <ns3:RequestedDate>
+                                    <ns3:PriceDetail>
+                                        <ns3:BaseAmount Code="RUB">5500</ns3:BaseAmount>
+                                    </ns3:PriceDetail>
+                                    <ns3:Associations>
+                                        <ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG5</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                        </ns3:OtherAssociation>
+                                    </ns3:Associations>
+                                    <ns3:Associations>
+                                        <ns3:AssociatedTraveler>
+                                            <ns3:TravelerReferences>SH1</ns3:TravelerReferences>
+                                        </ns3:AssociatedTraveler>
+                                        <ns3:ApplicableFlight>
+                                            <ns3:OriginDestinationReferences>OD1</ns3:OriginDestinationReferences>
+                                            <ns3:FlightReferences>FL5</ns3:FlightReferences>
+                                            <ns3:FlightSegmentReference ref="SEG5">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">O</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG5</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                        </ns3:ApplicableFlight>
+                                        <ns3:OfferDetailAssociation>
+                                            <ns3:OfferPenaltyReferences>PL1</ns3:OfferPenaltyReferences>
+                                        </ns3:OfferDetailAssociation>
+                                    </ns3:Associations>
+                                </ns3:RequestedDate>
+                                <ns3:FareDetail>
+                                    <ns3:FareComponent>
+                                        <ns3:Parameters Quantity="1"/>
+                                        <ns3:PriceBreakdown>
+                                            <ns3:Price>
+                                                <ns3:BaseAmount Code="RUB">5500</ns3:BaseAmount>
+                                                <ns3:FareFiledIn>
+                                                    <ns3:BaseAmount Code="RUB">5500</ns3:BaseAmount>
+                                                </ns3:FareFiledIn>
+                                                <ns3:Taxes>
+                                                    <ns3:Total Code="RUB">1500</ns3:Total>
+                                                    <ns3:Breakdown>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                    </ns3:Breakdown>
+                                                </ns3:Taxes>
+                                            </ns3:Price>
+                                        </ns3:PriceBreakdown>
+                                    </ns3:FareComponent>
+                                    <ns3:Remarks>
+                                        <ns3:Remark>20MAR17OVB S7 MOW5500RUB5500END XT RUB1500YR</ns3:Remark>
+                                    </ns3:Remarks>
+                                </ns3:FareDetail>
+                            </ns3:OfferPrice>
+                        </ns3:PricedOffer>
+                    </ns3:AirlineOffer>
+                    <ns3:AirlineOffer>
+                        <ns3:OfferID Owner="S7">OF6</ns3:OfferID>
+                        <ns3:TotalPrice>
+                            <ns3:DetailCurrencyPrice>
+                                <ns3:Total Code="RUB">11900</ns3:Total>
+                                <ns3:Fees>
+                                    <ns3:Total>0</ns3:Total>
+                                </ns3:Fees>
+                            </ns3:DetailCurrencyPrice>
+                        </ns3:TotalPrice>
+                        <ns3:PricedOffer>
+                            <ns3:OfferPrice>
+                                <ns3:RequestedDate>
+                                    <ns3:PriceDetail>
+                                        <ns3:BaseAmount Code="RUB">9900</ns3:BaseAmount>
+                                    </ns3:PriceDetail>
+                                    <ns3:Associations>
+                                        <ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG6</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG7</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                        </ns3:OtherAssociation>
+                                    </ns3:Associations>
+                                    <ns3:Associations>
+                                        <ns3:AssociatedTraveler>
+                                            <ns3:TravelerReferences>SH1</ns3:TravelerReferences>
+                                        </ns3:AssociatedTraveler>
+                                        <ns3:ApplicableFlight>
+                                            <ns3:OriginDestinationReferences>OD2 OD3</ns3:OriginDestinationReferences>
+                                            <ns3:FlightReferences>FL6</ns3:FlightReferences>
+                                            <ns3:FlightSegmentReference ref="SEG6">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">S</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG6</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                            <ns3:FlightSegmentReference ref="SEG7">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">W</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG7</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                        </ns3:ApplicableFlight>
+                                        <ns3:OfferDetailAssociation>
+                                            <ns3:OfferPenaltyReferences>PL1</ns3:OfferPenaltyReferences>
+                                        </ns3:OfferDetailAssociation>
+                                    </ns3:Associations>
+                                </ns3:RequestedDate>
+                                <ns3:FareDetail>
+                                    <ns3:FareComponent>
+                                        <ns3:Parameters Quantity="1"/>
+                                        <ns3:PriceBreakdown>
+                                            <ns3:Price>
+                                                <ns3:BaseAmount Code="RUB">9900</ns3:BaseAmount>
+                                                <ns3:FareFiledIn>
+                                                    <ns3:BaseAmount Code="RUB">9900</ns3:BaseAmount>
+                                                </ns3:FareFiledIn>
+                                                <ns3:Taxes>
+                                                    <ns3:Total Code="RUB">2000</ns3:Total>
+                                                    <ns3:Breakdown>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                    </ns3:Breakdown>
+                                                </ns3:Taxes>
+                                            </ns3:Price>
+                                        </ns3:PriceBreakdown>
+                                    </ns3:FareComponent>
+                                    <ns3:Remarks>
+                                        <ns3:Remark>20MAR17OVB S7 X/LED8800 S7 MOW1100RUB9900END XT RUB2000YR</ns3:Remark>
+                                    </ns3:Remarks>
+                                </ns3:FareDetail>
+                            </ns3:OfferPrice>
+                        </ns3:PricedOffer>
+                    </ns3:AirlineOffer>
+                    <ns3:AirlineOffer>
+                        <ns3:OfferID Owner="S7">OF7</ns3:OfferID>
+                        <ns3:TotalPrice>
+                            <ns3:DetailCurrencyPrice>
+                                <ns3:Total Code="RUB">11900</ns3:Total>
+                                <ns3:Fees>
+                                    <ns3:Total>0</ns3:Total>
+                                </ns3:Fees>
+                            </ns3:DetailCurrencyPrice>
+                        </ns3:TotalPrice>
+                        <ns3:PricedOffer>
+                            <ns3:OfferPrice>
+                                <ns3:RequestedDate>
+                                    <ns3:PriceDetail>
+                                        <ns3:BaseAmount Code="RUB">9900</ns3:BaseAmount>
+                                    </ns3:PriceDetail>
+                                    <ns3:Associations>
+                                        <ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG8</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG9</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                        </ns3:OtherAssociation>
+                                    </ns3:Associations>
+                                    <ns3:Associations>
+                                        <ns3:AssociatedTraveler>
+                                            <ns3:TravelerReferences>SH1</ns3:TravelerReferences>
+                                        </ns3:AssociatedTraveler>
+                                        <ns3:ApplicableFlight>
+                                            <ns3:OriginDestinationReferences>OD2 OD3</ns3:OriginDestinationReferences>
+                                            <ns3:FlightReferences>FL7</ns3:FlightReferences>
+                                            <ns3:FlightSegmentReference ref="SEG9">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">W</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG8</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                            <ns3:FlightSegmentReference ref="SEG8">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">S</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG9</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                        </ns3:ApplicableFlight>
+                                        <ns3:OfferDetailAssociation>
+                                            <ns3:OfferPenaltyReferences>PL1</ns3:OfferPenaltyReferences>
+                                        </ns3:OfferDetailAssociation>
+                                    </ns3:Associations>
+                                </ns3:RequestedDate>
+                                <ns3:FareDetail>
+                                    <ns3:FareComponent>
+                                        <ns3:Parameters Quantity="1"/>
+                                        <ns3:PriceBreakdown>
+                                            <ns3:Price>
+                                                <ns3:BaseAmount Code="RUB">9900</ns3:BaseAmount>
+                                                <ns3:FareFiledIn>
+                                                    <ns3:BaseAmount Code="RUB">9900</ns3:BaseAmount>
+                                                </ns3:FareFiledIn>
+                                                <ns3:Taxes>
+                                                    <ns3:Total Code="RUB">2000</ns3:Total>
+                                                    <ns3:Breakdown>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                    </ns3:Breakdown>
+                                                </ns3:Taxes>
+                                            </ns3:Price>
+                                        </ns3:PriceBreakdown>
+                                    </ns3:FareComponent>
+                                    <ns3:Remarks>
+                                        <ns3:Remark>20MAR17OVB S7 X/LED8800 S7 MOW1100RUB9900END XT RUB2000YR</ns3:Remark>
+                                    </ns3:Remarks>
+                                </ns3:FareDetail>
+                            </ns3:OfferPrice>
+                        </ns3:PricedOffer>
+                    </ns3:AirlineOffer>
+                    <ns3:AirlineOffer>
+                        <ns3:OfferID Owner="S7">OF8</ns3:OfferID>
+                        <ns3:TotalPrice>
+                            <ns3:DetailCurrencyPrice>
+                                <ns3:Total Code="RUB">11900</ns3:Total>
+                                <ns3:Fees>
+                                    <ns3:Total>0</ns3:Total>
+                                </ns3:Fees>
+                            </ns3:DetailCurrencyPrice>
+                        </ns3:TotalPrice>
+                        <ns3:PricedOffer>
+                            <ns3:OfferPrice>
+                                <ns3:RequestedDate>
+                                    <ns3:PriceDetail>
+                                        <ns3:BaseAmount Code="RUB">9900</ns3:BaseAmount>
+                                    </ns3:PriceDetail>
+                                    <ns3:Associations>
+                                        <ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG10</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG11</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                        </ns3:OtherAssociation>
+                                    </ns3:Associations>
+                                    <ns3:Associations>
+                                        <ns3:AssociatedTraveler>
+                                            <ns3:TravelerReferences>SH1</ns3:TravelerReferences>
+                                        </ns3:AssociatedTraveler>
+                                        <ns3:ApplicableFlight>
+                                            <ns3:OriginDestinationReferences>OD2 OD3</ns3:OriginDestinationReferences>
+                                            <ns3:FlightReferences>FL8</ns3:FlightReferences>
+                                            <ns3:FlightSegmentReference ref="SEG11">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">W</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG10</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                            <ns3:FlightSegmentReference ref="SEG10">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">S</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG11</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                        </ns3:ApplicableFlight>
+                                        <ns3:OfferDetailAssociation>
+                                            <ns3:OfferPenaltyReferences>PL1</ns3:OfferPenaltyReferences>
+                                        </ns3:OfferDetailAssociation>
+                                    </ns3:Associations>
+                                </ns3:RequestedDate>
+                                <ns3:FareDetail>
+                                    <ns3:FareComponent>
+                                        <ns3:Parameters Quantity="1"/>
+                                        <ns3:PriceBreakdown>
+                                            <ns3:Price>
+                                                <ns3:BaseAmount Code="RUB">9900</ns3:BaseAmount>
+                                                <ns3:FareFiledIn>
+                                                    <ns3:BaseAmount Code="RUB">9900</ns3:BaseAmount>
+                                                </ns3:FareFiledIn>
+                                                <ns3:Taxes>
+                                                    <ns3:Total Code="RUB">2000</ns3:Total>
+                                                    <ns3:Breakdown>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                    </ns3:Breakdown>
+                                                </ns3:Taxes>
+                                            </ns3:Price>
+                                        </ns3:PriceBreakdown>
+                                    </ns3:FareComponent>
+                                    <ns3:Remarks>
+                                        <ns3:Remark>20MAR17OVB S7 X/LED8800 S7 MOW1100RUB9900END XT RUB2000YR</ns3:Remark>
+                                    </ns3:Remarks>
+                                </ns3:FareDetail>
+                            </ns3:OfferPrice>
+                        </ns3:PricedOffer>
+                    </ns3:AirlineOffer>
+                    <ns3:AirlineOffer>
+                        <ns3:OfferID Owner="S7">OF9</ns3:OfferID>
+                        <ns3:TotalPrice>
+                            <ns3:DetailCurrencyPrice>
+                                <ns3:Total Code="RUB">12600</ns3:Total>
+                                <ns3:Fees>
+                                    <ns3:Total>0</ns3:Total>
+                                </ns3:Fees>
+                            </ns3:DetailCurrencyPrice>
+                        </ns3:TotalPrice>
+                        <ns3:PricedOffer>
+                            <ns3:OfferPrice>
+                                <ns3:RequestedDate>
+                                    <ns3:PriceDetail>
+                                        <ns3:BaseAmount Code="RUB">10600</ns3:BaseAmount>
+                                    </ns3:PriceDetail>
+                                    <ns3:Associations>
+                                        <ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG12</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG13</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                        </ns3:OtherAssociation>
+                                    </ns3:Associations>
+                                    <ns3:Associations>
+                                        <ns3:AssociatedTraveler>
+                                            <ns3:TravelerReferences>SH1</ns3:TravelerReferences>
+                                        </ns3:AssociatedTraveler>
+                                        <ns3:ApplicableFlight>
+                                            <ns3:OriginDestinationReferences>OD2 OD3</ns3:OriginDestinationReferences>
+                                            <ns3:FlightReferences>FL9</ns3:FlightReferences>
+                                            <ns3:FlightSegmentReference ref="SEG13">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">O</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG12</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                            <ns3:FlightSegmentReference ref="SEG12">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">S</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG13</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                        </ns3:ApplicableFlight>
+                                        <ns3:OfferDetailAssociation>
+                                            <ns3:OfferPenaltyReferences>PL1</ns3:OfferPenaltyReferences>
+                                        </ns3:OfferDetailAssociation>
+                                    </ns3:Associations>
+                                </ns3:RequestedDate>
+                                <ns3:FareDetail>
+                                    <ns3:FareComponent>
+                                        <ns3:Parameters Quantity="1"/>
+                                        <ns3:PriceBreakdown>
+                                            <ns3:Price>
+                                                <ns3:BaseAmount Code="RUB">10600</ns3:BaseAmount>
+                                                <ns3:FareFiledIn>
+                                                    <ns3:BaseAmount Code="RUB">10600</ns3:BaseAmount>
+                                                </ns3:FareFiledIn>
+                                                <ns3:Taxes>
+                                                    <ns3:Total Code="RUB">2000</ns3:Total>
+                                                    <ns3:Breakdown>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                    </ns3:Breakdown>
+                                                </ns3:Taxes>
+                                            </ns3:Price>
+                                        </ns3:PriceBreakdown>
+                                    </ns3:FareComponent>
+                                    <ns3:Remarks>
+                                        <ns3:Remark>20MAR17OVB S7 X/LED8800 S7 MOW1800RUB10600END XT RUB2000YR</ns3:Remark>
+                                    </ns3:Remarks>
+                                </ns3:FareDetail>
+                            </ns3:OfferPrice>
+                        </ns3:PricedOffer>
+                    </ns3:AirlineOffer>
+                    <ns3:AirlineOffer>
+                        <ns3:OfferID Owner="S7">OF10</ns3:OfferID>
+                        <ns3:TotalPrice>
+                            <ns3:DetailCurrencyPrice>
+                                <ns3:Total Code="RUB">17000</ns3:Total>
+                                <ns3:Fees>
+                                    <ns3:Total>0</ns3:Total>
+                                </ns3:Fees>
+                            </ns3:DetailCurrencyPrice>
+                        </ns3:TotalPrice>
+                        <ns3:PricedOffer>
+                            <ns3:OfferPrice>
+                                <ns3:RequestedDate>
+                                    <ns3:PriceDetail>
+                                        <ns3:BaseAmount Code="RUB">14000</ns3:BaseAmount>
+                                    </ns3:PriceDetail>
+                                    <ns3:Associations>
+                                        <ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG14</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG15</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                        </ns3:OtherAssociation>
+                                    </ns3:Associations>
+                                    <ns3:Associations>
+                                        <ns3:AssociatedTraveler>
+                                            <ns3:TravelerReferences>SH1</ns3:TravelerReferences>
+                                        </ns3:AssociatedTraveler>
+                                        <ns3:ApplicableFlight>
+                                            <ns3:OriginDestinationReferences>OD4 OD5</ns3:OriginDestinationReferences>
+                                            <ns3:FlightReferences>FL10</ns3:FlightReferences>
+                                            <ns3:FlightSegmentReference ref="SEG14">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">N</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG14</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                            <ns3:FlightSegmentReference ref="SEG15">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">Q</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG15</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                        </ns3:ApplicableFlight>
+                                        <ns3:OfferDetailAssociation>
+                                            <ns3:OfferPenaltyReferences>PL1</ns3:OfferPenaltyReferences>
+                                        </ns3:OfferDetailAssociation>
+                                    </ns3:Associations>
+                                </ns3:RequestedDate>
+                                <ns3:FareDetail>
+                                    <ns3:FareComponent>
+                                        <ns3:Parameters Quantity="1"/>
+                                        <ns3:PriceBreakdown>
+                                            <ns3:Price>
+                                                <ns3:BaseAmount Code="RUB">14000</ns3:BaseAmount>
+                                                <ns3:FareFiledIn>
+                                                    <ns3:BaseAmount Code="RUB">14000</ns3:BaseAmount>
+                                                </ns3:FareFiledIn>
+                                                <ns3:Taxes>
+                                                    <ns3:Total Code="RUB">3000</ns3:Total>
+                                                    <ns3:Breakdown>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                    </ns3:Breakdown>
+                                                </ns3:Taxes>
+                                            </ns3:Price>
+                                        </ns3:PriceBreakdown>
+                                    </ns3:FareComponent>
+                                    <ns3:Remarks>
+                                        <ns3:Remark>20MAR17OVB S7 X/HTA5000 S7 MOW9000RUB14000END XT RUB3000YR</ns3:Remark>
+                                    </ns3:Remarks>
+                                </ns3:FareDetail>
+                            </ns3:OfferPrice>
+                        </ns3:PricedOffer>
+                    </ns3:AirlineOffer>
+                    <ns3:AirlineOffer>
+                        <ns3:OfferID Owner="S7">OF11</ns3:OfferID>
+                        <ns3:TotalPrice>
+                            <ns3:DetailCurrencyPrice>
+                                <ns3:Total Code="RUB">18900</ns3:Total>
+                                <ns3:Fees>
+                                    <ns3:Total>0</ns3:Total>
+                                </ns3:Fees>
+                            </ns3:DetailCurrencyPrice>
+                        </ns3:TotalPrice>
+                        <ns3:PricedOffer>
+                            <ns3:OfferPrice>
+                                <ns3:RequestedDate>
+                                    <ns3:PriceDetail>
+                                        <ns3:BaseAmount Code="RUB">15900</ns3:BaseAmount>
+                                    </ns3:PriceDetail>
+                                    <ns3:Associations>
+                                        <ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG16</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG17</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                        </ns3:OtherAssociation>
+                                    </ns3:Associations>
+                                    <ns3:Associations>
+                                        <ns3:AssociatedTraveler>
+                                            <ns3:TravelerReferences>SH1</ns3:TravelerReferences>
+                                        </ns3:AssociatedTraveler>
+                                        <ns3:ApplicableFlight>
+                                            <ns3:OriginDestinationReferences>OD6 OD7</ns3:OriginDestinationReferences>
+                                            <ns3:FlightReferences>FL11</ns3:FlightReferences>
+                                            <ns3:FlightSegmentReference ref="SEG16">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">S</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG16</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                            <ns3:FlightSegmentReference ref="SEG17">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">S</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG17</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                        </ns3:ApplicableFlight>
+                                        <ns3:OfferDetailAssociation>
+                                            <ns3:OfferPenaltyReferences>PL1</ns3:OfferPenaltyReferences>
+                                        </ns3:OfferDetailAssociation>
+                                    </ns3:Associations>
+                                </ns3:RequestedDate>
+                                <ns3:FareDetail>
+                                    <ns3:FareComponent>
+                                        <ns3:Parameters Quantity="1"/>
+                                        <ns3:PriceBreakdown>
+                                            <ns3:Price>
+                                                <ns3:BaseAmount Code="RUB">15900</ns3:BaseAmount>
+                                                <ns3:FareFiledIn>
+                                                    <ns3:BaseAmount Code="RUB">15900</ns3:BaseAmount>
+                                                </ns3:FareFiledIn>
+                                                <ns3:Taxes>
+                                                    <ns3:Total Code="RUB">3000</ns3:Total>
+                                                    <ns3:Breakdown>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                    </ns3:Breakdown>
+                                                </ns3:Taxes>
+                                            </ns3:Price>
+                                        </ns3:PriceBreakdown>
+                                    </ns3:FareComponent>
+                                    <ns3:Remarks>
+                                        <ns3:Remark>20MAR17OVB S7 X/IKT5400 S7 MOW10500RUB15900END XT RUB3000YR</ns3:Remark>
+                                    </ns3:Remarks>
+                                </ns3:FareDetail>
+                            </ns3:OfferPrice>
+                        </ns3:PricedOffer>
+                    </ns3:AirlineOffer>
+                    <ns3:AirlineOffer>
+                        <ns3:OfferID Owner="S7">OF12</ns3:OfferID>
+                        <ns3:TotalPrice>
+                            <ns3:DetailCurrencyPrice>
+                                <ns3:Total Code="RUB">18900</ns3:Total>
+                                <ns3:Fees>
+                                    <ns3:Total>0</ns3:Total>
+                                </ns3:Fees>
+                            </ns3:DetailCurrencyPrice>
+                        </ns3:TotalPrice>
+                        <ns3:PricedOffer>
+                            <ns3:OfferPrice>
+                                <ns3:RequestedDate>
+                                    <ns3:PriceDetail>
+                                        <ns3:BaseAmount Code="RUB">15900</ns3:BaseAmount>
+                                    </ns3:PriceDetail>
+                                    <ns3:Associations>
+                                        <ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG18</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG19</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                        </ns3:OtherAssociation>
+                                    </ns3:Associations>
+                                    <ns3:Associations>
+                                        <ns3:AssociatedTraveler>
+                                            <ns3:TravelerReferences>SH1</ns3:TravelerReferences>
+                                        </ns3:AssociatedTraveler>
+                                        <ns3:ApplicableFlight>
+                                            <ns3:OriginDestinationReferences>OD6 OD7</ns3:OriginDestinationReferences>
+                                            <ns3:FlightReferences>FL12</ns3:FlightReferences>
+                                            <ns3:FlightSegmentReference ref="SEG19">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">S</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG18</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                            <ns3:FlightSegmentReference ref="SEG18">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">S</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG19</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                        </ns3:ApplicableFlight>
+                                        <ns3:OfferDetailAssociation>
+                                            <ns3:OfferPenaltyReferences>PL1</ns3:OfferPenaltyReferences>
+                                        </ns3:OfferDetailAssociation>
+                                    </ns3:Associations>
+                                </ns3:RequestedDate>
+                                <ns3:FareDetail>
+                                    <ns3:FareComponent>
+                                        <ns3:Parameters Quantity="1"/>
+                                        <ns3:PriceBreakdown>
+                                            <ns3:Price>
+                                                <ns3:BaseAmount Code="RUB">15900</ns3:BaseAmount>
+                                                <ns3:FareFiledIn>
+                                                    <ns3:BaseAmount Code="RUB">15900</ns3:BaseAmount>
+                                                </ns3:FareFiledIn>
+                                                <ns3:Taxes>
+                                                    <ns3:Total Code="RUB">3000</ns3:Total>
+                                                    <ns3:Breakdown>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                    </ns3:Breakdown>
+                                                </ns3:Taxes>
+                                            </ns3:Price>
+                                        </ns3:PriceBreakdown>
+                                    </ns3:FareComponent>
+                                    <ns3:Remarks>
+                                        <ns3:Remark>20MAR17OVB S7 X/IKT5400 S7 MOW10500RUB15900END XT RUB3000YR</ns3:Remark>
+                                    </ns3:Remarks>
+                                </ns3:FareDetail>
+                            </ns3:OfferPrice>
+                        </ns3:PricedOffer>
+                    </ns3:AirlineOffer>
+                    <ns3:AirlineOffer>
+                        <ns3:OfferID Owner="S7">OF13</ns3:OfferID>
+                        <ns3:TotalPrice>
+                            <ns3:DetailCurrencyPrice>
+                                <ns3:Total Code="RUB">20000</ns3:Total>
+                                <ns3:Fees>
+                                    <ns3:Total>0</ns3:Total>
+                                </ns3:Fees>
+                            </ns3:DetailCurrencyPrice>
+                        </ns3:TotalPrice>
+                        <ns3:PricedOffer>
+                            <ns3:OfferPrice>
+                                <ns3:RequestedDate>
+                                    <ns3:PriceDetail>
+                                        <ns3:BaseAmount Code="RUB">17000</ns3:BaseAmount>
+                                    </ns3:PriceDetail>
+                                    <ns3:Associations>
+                                        <ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG20</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG21</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                        </ns3:OtherAssociation>
+                                    </ns3:Associations>
+                                    <ns3:Associations>
+                                        <ns3:AssociatedTraveler>
+                                            <ns3:TravelerReferences>SH1</ns3:TravelerReferences>
+                                        </ns3:AssociatedTraveler>
+                                        <ns3:ApplicableFlight>
+                                            <ns3:OriginDestinationReferences>OD8 OD9</ns3:OriginDestinationReferences>
+                                            <ns3:FlightReferences>FL13</ns3:FlightReferences>
+                                            <ns3:FlightSegmentReference ref="SEG21">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">O</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG20</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                            <ns3:FlightSegmentReference ref="SEG20">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">T</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG21</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                        </ns3:ApplicableFlight>
+                                        <ns3:OfferDetailAssociation>
+                                            <ns3:OfferPenaltyReferences>PL1</ns3:OfferPenaltyReferences>
+                                        </ns3:OfferDetailAssociation>
+                                    </ns3:Associations>
+                                </ns3:RequestedDate>
+                                <ns3:FareDetail>
+                                    <ns3:FareComponent>
+                                        <ns3:Parameters Quantity="1"/>
+                                        <ns3:PriceBreakdown>
+                                            <ns3:Price>
+                                                <ns3:BaseAmount Code="RUB">17000</ns3:BaseAmount>
+                                                <ns3:FareFiledIn>
+                                                    <ns3:BaseAmount Code="RUB">17000</ns3:BaseAmount>
+                                                </ns3:FareFiledIn>
+                                                <ns3:Taxes>
+                                                    <ns3:Total Code="RUB">3000</ns3:Total>
+                                                    <ns3:Breakdown>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                    </ns3:Breakdown>
+                                                </ns3:Taxes>
+                                            </ns3:Price>
+                                        </ns3:PriceBreakdown>
+                                    </ns3:FareComponent>
+                                    <ns3:Remarks>
+                                        <ns3:Remark>20MAR17OVB S7 X/YKS11500 S7 MOW5500RUB17000END XT RUB3000YR</ns3:Remark>
+                                    </ns3:Remarks>
+                                </ns3:FareDetail>
+                            </ns3:OfferPrice>
+                        </ns3:PricedOffer>
+                    </ns3:AirlineOffer>
+                    <ns3:AirlineOffer>
+                        <ns3:OfferID Owner="S7">OF14</ns3:OfferID>
+                        <ns3:TotalPrice>
+                            <ns3:DetailCurrencyPrice>
+                                <ns3:Total Code="RUB">24950</ns3:Total>
+                                <ns3:Fees>
+                                    <ns3:Total>0</ns3:Total>
+                                </ns3:Fees>
+                            </ns3:DetailCurrencyPrice>
+                        </ns3:TotalPrice>
+                        <ns3:PricedOffer>
+                            <ns3:OfferPrice>
+                                <ns3:RequestedDate>
+                                    <ns3:PriceDetail>
+                                        <ns3:BaseAmount Code="RUB">21950</ns3:BaseAmount>
+                                    </ns3:PriceDetail>
+                                    <ns3:Associations>
+                                        <ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG22</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                            <ns3:OtherAssociation>
+                                                <ns3:Type>FARE</ns3:Type>
+                                                <ns3:ReferenceValue>FG23</ns3:ReferenceValue>
+                                            </ns3:OtherAssociation>
+                                        </ns3:OtherAssociation>
+                                    </ns3:Associations>
+                                    <ns3:Associations>
+                                        <ns3:AssociatedTraveler>
+                                            <ns3:TravelerReferences>SH1</ns3:TravelerReferences>
+                                        </ns3:AssociatedTraveler>
+                                        <ns3:ApplicableFlight>
+                                            <ns3:OriginDestinationReferences>OD10 OD11</ns3:OriginDestinationReferences>
+                                            <ns3:FlightReferences>FL14</ns3:FlightReferences>
+                                            <ns3:FlightSegmentReference ref="SEG22">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">V</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG22</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                            <ns3:FlightSegmentReference ref="SEG23">
+                                                <ns3:ClassOfService>
+                                                    <ns3:Code SeatsLeft="9">T</ns3:Code>
+                                                </ns3:ClassOfService>
+                                                <ns3:BagDetailAssociation>
+                                                    <ns3:CheckedBagReferences>BG23</ns3:CheckedBagReferences>
+                                                </ns3:BagDetailAssociation>
+                                            </ns3:FlightSegmentReference>
+                                        </ns3:ApplicableFlight>
+                                        <ns3:OfferDetailAssociation>
+                                            <ns3:OfferPenaltyReferences>PL1</ns3:OfferPenaltyReferences>
+                                        </ns3:OfferDetailAssociation>
+                                    </ns3:Associations>
+                                </ns3:RequestedDate>
+                                <ns3:FareDetail>
+                                    <ns3:FareComponent>
+                                        <ns3:Parameters Quantity="1"/>
+                                        <ns3:PriceBreakdown>
+                                            <ns3:Price>
+                                                <ns3:BaseAmount Code="RUB">21950</ns3:BaseAmount>
+                                                <ns3:FareFiledIn>
+                                                    <ns3:BaseAmount Code="RUB">21950</ns3:BaseAmount>
+                                                </ns3:FareFiledIn>
+                                                <ns3:Taxes>
+                                                    <ns3:Total Code="RUB">3000</ns3:Total>
+                                                    <ns3:Breakdown>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                        <ns3:Tax>
+                                                            <ns3:Amount Code="RUB">1500</ns3:Amount>
+                                                            <ns3:TaxCode>YR</ns3:TaxCode>
+                                                        </ns3:Tax>
+                                                    </ns3:Breakdown>
+                                                </ns3:Taxes>
+                                            </ns3:Price>
+                                        </ns3:PriceBreakdown>
+                                    </ns3:FareComponent>
+                                    <ns3:Remarks>
+                                        <ns3:Remark>20MAR17OVB S7 X/NSK9300 S7 MOW12650RUB21950END XT RUB3000YR</ns3:Remark>
+                                    </ns3:Remarks>
+                                </ns3:FareDetail>
+                            </ns3:OfferPrice>
+                        </ns3:PricedOffer>
+                    </ns3:AirlineOffer>
+                </ns3:AirlineOffers>
+            </ns3:OffersGroup>
+            <ns3:Metadata>
+                <ns3:Other>
+                    <ns3:OtherMetadata>
+                        <ns3:RuleMetadatas>
+                            <ns3:RuleMetadata MetadataKey="lowfare">
+                                <ns3:RuleID>lowfare_rule</ns3:RuleID>
+                                <ns3:Remarks>
+                                    <ns3:Remark>circuityLimit:3</ns3:Remark>
+                                    <ns3:Remark>durationLimit:5</ns3:Remark>
+                                </ns3:Remarks>
+                            </ns3:RuleMetadata>
+                        </ns3:RuleMetadatas>
+                    </ns3:OtherMetadata>
+                </ns3:Other>
+            </ns3:Metadata>
+        </ns3:AirShoppingRS>
+    </ns2:Body>
+</ns2:Envelope>
